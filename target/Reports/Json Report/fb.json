@@ -1,0 +1,744 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4156465100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User have to open the facebook application through chrome browser and maximize the window",
+            "match": {
+              "location": "StepDefinition.user_have_to_open_the_facebook_application_through_chrome_browser_and_maximize_the_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 768519500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User have to click the create new account",
+            "match": {
+              "location": "StepDefinition.user_have_to_click_the_create_new_account()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8403800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User have to wait for few seconds",
+            "match": {
+              "location": "StepDefinition.user_have_to_wait_for_few_seconds()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-10-04T15:52:21.350Z",
+        "line": 18,
+        "name": "",
+        "description": " To validate the functionality of using Creating New Account",
+        "id": "to-validate-the-funactionality-of-facebook-application;;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome\u003d129.0.6668.90)\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721.0.3\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [dbb74ec7d45cc36e6f21a0cdc75e3a4d, sendKeysToElement {id\u003df.90B6CF2667592DC7E9951B0DB26B7F06.d.642A30BBB5421CC9945CF57EF5EA6945.e.28, value\u003d[Ljava.lang.CharSequence;@2d8f2f3a}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\\Users\\ronal\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49977}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49977/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (dbb74ec7d45cc36e6f21a0cdc75e3a4d)] -\u003e xpath: (//input[@type\u003d\u0027text\u0027])[3]]\nSession ID: dbb74ec7d45cc36e6f21a0cdc75e3a4d\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)\r\n\tat org.stepDefinitionCreateNewAccount.StepDefinition.user_have_to_pass_the_Valid_Vaild(StepDefinition.java:42)\r\n\tat ✽.User have to pass the Valid \"M.Mohamed\",Vaild \"Ashif\"(file:/C:/Users/ronal/eclipse-workspace/Cucumber/src/test/resources/Features/createNewAccount.feature:11)\r\n",
+              "duration": 5180703300,
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "User have to pass the Valid \"M.Mohamed\",Vaild \"Ashif\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"M.Mohamed\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"Ashif\"",
+                  "offset": 46
+                }
+              ],
+              "location": "StepDefinition.user_have_to_pass_the_Valid_Vaild(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 39100,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "User Have To Select The Valid \"\u003cDate of Birth\u003e\",Valid \"\u003cGender\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cDate of Birth\u003e\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"\u003cGender\u003e\"",
+                  "offset": 54
+                }
+              ],
+              "location": "StepDefinition.user_Have_To_Select_The_Valid_Valid(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15700,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "User have to pass the Valid \"mohamedashif007@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mohamedashif007@gmail.com\"",
+                  "offset": 28
+                }
+              ],
+              "location": "StepDefinition.user_have_to_pass_the_Valid(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9700,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "User have to set valid the \"\u003cpassword\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cpassword\u003e\"",
+                  "offset": 27
+                }
+              ],
+              "location": "StepDefinition.user_have_to_set_valid_the(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 689980100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User have to open the facebook application through chrome browser and maximize the window",
+            "match": {
+              "location": "StepDefinition.user_have_to_open_the_facebook_application_through_chrome_browser_and_maximize_the_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1024429200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User have to click the create new account",
+            "match": {
+              "location": "StepDefinition.user_have_to_click_the_create_new_account()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3401900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User have to wait for few seconds",
+            "match": {
+              "location": "StepDefinition.user_have_to_wait_for_few_seconds()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-10-04T15:52:31.524Z",
+        "line": 19,
+        "name": "",
+        "description": " To validate the functionality of using Creating New Account",
+        "id": "to-validate-the-funactionality-of-facebook-application;;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4374481300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User have to pass the Valid \"P.Praveen\",Vaild \"Kumar\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"P.Praveen\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"Kumar\"",
+                  "offset": 46
+                }
+              ],
+              "location": "StepDefinition.user_have_to_pass_the_Valid_Vaild(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d129.0.6668.90)\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721.0.3\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [dbb74ec7d45cc36e6f21a0cdc75e3a4d, findElement {using\u003dxpath, value\u003d//select[@name\u003d\u0027birthday_day\u0027]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\\Users\\ronal\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49977}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49977/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: dbb74ec7d45cc36e6f21a0cdc75e3a4d\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)\r\n\tat org.stepDefinitionCreateNewAccount.StepDefinition.user_Have_To_Select_The_Valid_Valid(StepDefinition.java:48)\r\n\tat ✽.User Have To Select The Valid \"\u003cDate of Birth\u003e\",Valid \"\u003cGender\u003e\"(file:/C:/Users/ronal/eclipse-workspace/Cucumber/src/test/resources/Features/createNewAccount.feature:12)\r\n",
+              "duration": 62068000,
+              "status": "failed"
+            },
+            "line": 12,
+            "name": "User Have To Select The Valid \"\u003cDate of Birth\u003e\",Valid \"\u003cGender\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cDate of Birth\u003e\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"\u003cGender\u003e\"",
+                  "offset": 54
+                }
+              ],
+              "location": "StepDefinition.user_Have_To_Select_The_Valid_Valid(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 35100,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "User have to pass the Valid \"praveenpoun22@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"praveenpoun22@gmail.com\"",
+                  "offset": 28
+                }
+              ],
+              "location": "StepDefinition.user_have_to_pass_the_Valid(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 43500,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "User have to set valid the \"\u003cpassword\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cpassword\u003e\"",
+                  "offset": 27
+                }
+              ],
+              "location": "StepDefinition.user_have_to_set_valid_the(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d129.0.6668.90)\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721.0.3\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [dbb74ec7d45cc36e6f21a0cdc75e3a4d, get {url\u003dhttps://www.facebook.com/}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\\Users\\ronal\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49977}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49977/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: dbb74ec7d45cc36e6f21a0cdc75e3a4d\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:302)\r\n\tat org.stepDefinitionCreateNewAccount.StepDefinition.user_have_to_open_the_facebook_application_through_chrome_browser_and_maximize_the_window(StepDefinition.java:24)\r\n\tat ✽.User have to open the facebook application through chrome browser and maximize the window(file:/C:/Users/ronal/eclipse-workspace/Cucumber/src/test/resources/Features/createNewAccount.feature:4)\r\n",
+              "duration": 21033400,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "User have to open the facebook application through chrome browser and maximize the window",
+            "match": {
+              "location": "StepDefinition.user_have_to_open_the_facebook_application_through_chrome_browser_and_maximize_the_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 32900,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "User have to click the create new account",
+            "match": {
+              "location": "StepDefinition.user_have_to_click_the_create_new_account()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15800,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User have to wait for few seconds",
+            "match": {
+              "location": "StepDefinition.user_have_to_wait_for_few_seconds()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-10-04T15:52:37.699Z",
+        "line": 20,
+        "name": "",
+        "description": " To validate the functionality of using Creating New Account",
+        "id": "to-validate-the-funactionality-of-facebook-application;;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6195700,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User have to pass the Valid \"Vasanth\",Vaild \"R\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Vasanth\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"R\"",
+                  "offset": 44
+                }
+              ],
+              "location": "StepDefinition.user_have_to_pass_the_Valid_Vaild(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 167800,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "User Have To Select The Valid \"\u003cDate of Birth\u003e\",Valid \"\u003cGender\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cDate of Birth\u003e\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"\u003cGender\u003e\"",
+                  "offset": 54
+                }
+              ],
+              "location": "StepDefinition.user_Have_To_Select_The_Valid_Valid(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33100,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "User have to pass the Valid \"vasanthuppili12@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"vasanthuppili12@gmail.com\"",
+                  "offset": 28
+                }
+              ],
+              "location": "StepDefinition.user_have_to_pass_the_Valid(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29500,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "User have to set valid the \"\u003cpassword\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cpassword\u003e\"",
+                  "offset": 27
+                }
+              ],
+              "location": "StepDefinition.user_have_to_set_valid_the(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d129.0.6668.90)\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721.0.3\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [dbb74ec7d45cc36e6f21a0cdc75e3a4d, get {url\u003dhttps://www.facebook.com/}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\\Users\\ronal\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49977}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49977/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: dbb74ec7d45cc36e6f21a0cdc75e3a4d\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:302)\r\n\tat org.stepDefinitionCreateNewAccount.StepDefinition.user_have_to_open_the_facebook_application_through_chrome_browser_and_maximize_the_window(StepDefinition.java:24)\r\n\tat ✽.User have to open the facebook application through chrome browser and maximize the window(file:/C:/Users/ronal/eclipse-workspace/Cucumber/src/test/resources/Features/createNewAccount.feature:4)\r\n",
+              "duration": 27877800,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "User have to open the facebook application through chrome browser and maximize the window",
+            "match": {
+              "location": "StepDefinition.user_have_to_open_the_facebook_application_through_chrome_browser_and_maximize_the_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 36600,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "User have to click the create new account",
+            "match": {
+              "location": "StepDefinition.user_have_to_click_the_create_new_account()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 114400,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User have to wait for few seconds",
+            "match": {
+              "location": "StepDefinition.user_have_to_wait_for_few_seconds()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-10-04T15:52:37.746Z",
+        "line": 21,
+        "name": "",
+        "description": " To validate the functionality of using Creating New Account",
+        "id": "to-validate-the-funactionality-of-facebook-application;;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 328000,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User have to pass the Valid \"Gubendran\",Vaild \"T\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Gubendran\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"T\"",
+                  "offset": 46
+                }
+              ],
+              "location": "StepDefinition.user_have_to_pass_the_Valid_Vaild(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 28400,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "User Have To Select The Valid \"\u003cDate of Birth\u003e\",Valid \"\u003cGender\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cDate of Birth\u003e\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"\u003cGender\u003e\"",
+                  "offset": 54
+                }
+              ],
+              "location": "StepDefinition.user_Have_To_Select_The_Valid_Valid(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10000,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "User have to pass the Valid \"gubendranshadow2000@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"gubendranshadow2000@gmail.com\"",
+                  "offset": 28
+                }
+              ],
+              "location": "StepDefinition.user_have_to_pass_the_Valid(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15700,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "User have to set valid the \"\u003cpassword\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cpassword\u003e\"",
+                  "offset": 27
+                }
+              ],
+              "location": "StepDefinition.user_have_to_set_valid_the(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d129.0.6668.90)\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721.0.3\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [dbb74ec7d45cc36e6f21a0cdc75e3a4d, get {url\u003dhttps://www.facebook.com/}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\\Users\\ronal\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49977}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49977/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: dbb74ec7d45cc36e6f21a0cdc75e3a4d\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:302)\r\n\tat org.stepDefinitionCreateNewAccount.StepDefinition.user_have_to_open_the_facebook_application_through_chrome_browser_and_maximize_the_window(StepDefinition.java:24)\r\n\tat ✽.User have to open the facebook application through chrome browser and maximize the window(file:/C:/Users/ronal/eclipse-workspace/Cucumber/src/test/resources/Features/createNewAccount.feature:4)\r\n",
+              "duration": 21205000,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "User have to open the facebook application through chrome browser and maximize the window",
+            "match": {
+              "location": "StepDefinition.user_have_to_open_the_facebook_application_through_chrome_browser_and_maximize_the_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 36800,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "User have to click the create new account",
+            "match": {
+              "location": "StepDefinition.user_have_to_click_the_create_new_account()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 23700,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User have to wait for few seconds",
+            "match": {
+              "location": "StepDefinition.user_have_to_wait_for_few_seconds()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-10-04T15:52:37.793Z",
+        "line": 24,
+        "name": "To validate the functionality of using FirstName and SurName",
+        "description": "",
+        "id": "to-validate-the-funactionality-of-facebook-application;to-validate-the-functionality-of-using-firstname-and-surname",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 246700,
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "User have to pass the valid username and invalid password",
+            "match": {
+              "location": "StepDefinition.user_have_to_pass_the_valid_username_and_invalid_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Ahamed",
+                  "Pasha"
+                ]
+              }
+            ],
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d129.0.6668.90)\nBuild info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721.0.3\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [dbb74ec7d45cc36e6f21a0cdc75e3a4d, get {url\u003dhttps://www.facebook.com/}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\\Users\\ronal\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49977}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49977/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: dbb74ec7d45cc36e6f21a0cdc75e3a4d\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:302)\r\n\tat org.stepDefinitionCreateNewAccount.StepDefinition.user_have_to_open_the_facebook_application_through_chrome_browser_and_maximize_the_window(StepDefinition.java:24)\r\n\tat ✽.User have to open the facebook application through chrome browser and maximize the window(file:/C:/Users/ronal/eclipse-workspace/Cucumber/src/test/resources/Features/createNewAccount.feature:4)\r\n",
+              "duration": 8527100,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "User have to open the facebook application through chrome browser and maximize the window",
+            "match": {
+              "location": "StepDefinition.user_have_to_open_the_facebook_application_through_chrome_browser_and_maximize_the_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 30600,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "User have to click the create new account",
+            "match": {
+              "location": "StepDefinition.user_have_to_click_the_create_new_account()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19500,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User have to wait for few seconds",
+            "match": {
+              "location": "StepDefinition.user_have_to_wait_for_few_seconds()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-10-04T15:52:37.824Z",
+        "line": 30,
+        "name": "To validate the functionality of using username and password",
+        "description": "",
+        "id": "to-validate-the-funactionality-of-facebook-application;to-validate-the-functionality-of-using-username-and-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 601300,
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "User have to pass the invalid username and invalid password",
+            "match": {
+              "location": "StepDefinition.user_have_to_pass_the_invalid_username_and_invalid_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "FirstName",
+                  "SurName"
+                ]
+              },
+              {
+                "cells": [
+                  "M.Mohamed",
+                  "Ashif"
+                ]
+              },
+              {
+                "cells": [
+                  "P.Praveen",
+                  "Kumar"
+                ]
+              },
+              {
+                "cells": [
+                  "Vasanth",
+                  "R"
+                ]
+              },
+              {
+                "cells": [
+                  "Gubendran",
+                  "T"
+                ]
+              }
+            ],
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "To Validate the funactionality of facebook application",
+    "description": "",
+    "id": "to-validate-the-funactionality-of-facebook-application",
+    "keyword": "Feature",
+    "uri": "file:/C:/Users/ronal/eclipse-workspace/Cucumber/src/test/resources/Features/createNewAccount.feature",
+    "tags": []
+  }
+]
